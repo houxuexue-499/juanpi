@@ -1,0 +1,204 @@
+@import "public";
+body{
+    background: #f6f6f6;
+}
+/* header */
+.headerMain{
+    border-bottom: 4px solid #ff464e;
+    background: white;
+}
+.header{
+    width: 980px;
+    height: 85px;
+     ;
+}
+.header .logo{
+    padding-top: 17px;
+}
+.header .logo a{
+    display: flex;
+    width: 210px;
+    height: 52px;
+    background: url(../image/header-total.gif) no-repeat -68px -210px;
+    float: left;
+}
+.header ul{
+    width: 465px;
+    height: 33px;
+    float: left;
+    background: url(../image/header-total.gif) no-repeat 0 0;
+    margin-left: 243px;
+    margin-top: 8px;
+}
+.header li a{
+    display: block;
+    width: 155px;
+    height: 33px;
+}
+
+
+//enter
+.enter{
+    width: 980px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 20px;
+    .person{
+        height: 65px;
+        border: 1px solid #e2e2e2;
+        line-height: 65px;
+        padding: 0 50px;
+        h4{
+            // width: 100px;
+            // height: 24px;
+            color: #ff464e;
+            font-size: 16px;
+            font-weight: normal;
+            float: left;
+        }
+        span{
+            margin-left: 2px;
+            margin-top: 20px;
+            width: 16px;
+            height: 24px;
+            background: url(../image/hd-bg.gif) no-repeat 0 0;
+            float: left;
+            padding: 0 6px;
+        }
+        p{
+            color: #666;
+            font-size: 12px;
+            float: left;
+        }
+        .go_sign{
+            float: right;
+            em{
+                font-style: normal;
+                font-size: 14px;
+                color: #999;
+
+            }
+            a{
+                font-size: 14px;
+                color: #0289cd;;
+            }
+        }
+    }
+    .message{
+        padding:30px 80px 74px 80px;
+        border: 1px solid #e2e2e2;
+        border-top: none;
+       
+        p{
+            color: #666;
+            font-size: 14px;
+            padding-bottom: 25px;
+            width: 270px;
+            .name2{
+                display: inline-block;
+                width: 38px;
+                height: 38px;
+                background: url(../image/name2.jpg) no-repeat 0 0;
+                // border: 1px solid #f1f1f1;
+            }
+            input{
+                width: 272px;
+                height: 40px;
+                border: 1px solid #c6c6c6;
+
+            }
+            
+        }
+        .sub{
+            input{
+                width: 231px;
+                height: 38px;
+                background: #ff464e;
+                font-size: 16px;
+                line-height: 40px;
+                text-align: center;
+                cursor: pointer;
+                border: 0;
+                color: white;
+                outline: 0;
+                border-radius: 2px;
+                margin-top: 10px;
+                
+            }
+        }
+        .deal{
+            color: #5e5e5e;
+            font-size: 12px;
+            input{
+                width: 13px;
+                height: 13px;
+                margin-right: 6px;
+            }
+            a{
+                padding-left: 125px;
+                color: #999;;
+            }
+        }
+        img{
+            width: 349px;
+            height: 247pxpx;
+            float: right;
+            margin-top: -250px;
+        }
+        
+       .dl{
+           margin-top: 30px;
+           
+            h4{
+                color: #666;
+                font-size: 12px;
+                font-weight: 100;
+                padding-bottom: 8px;
+            }
+            a{
+               float: left;
+                width: 22px;
+                height: 22px;
+            }
+            .weixin{
+                background:url(../image/new-login.gif) no-repeat  -236px -194px;
+                margin-right: 7px;
+            }
+            .weibo{ 
+                background:url(../image/new-login.gif) no-repeat  -27px -169px;
+                margin-right: 7px;
+            }
+            .taobao{
+                background:url(../image/new-login.gif) no-repeat  -27px -140px;
+            }
+       }
+       .ipEnter{
+           color: #666;
+           font-size: 14px;
+           margin-left: 75px;
+            
+       }
+    }
+
+}
+.footer-tip{
+    margin: 0 auto;
+    width: 980px;
+    background-color: #f6f6f6;
+    p{
+        width: 900px;
+        height: 98px;
+        line-height: 98px;
+        color: #666;
+        font-size: 12px;
+        margin: auto 40px;
+
+    }
+    strong{
+        font-weight: 100;
+        color: #666;
+        font-size: 12px;
+        margin: 0 auto;
+
+    }
+}

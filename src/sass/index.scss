@@ -1,0 +1,599 @@
+@import "public";
+/* banner */
+.backg{
+    background:#f6f6f6; ;
+}
+.banner{
+    width: 1200px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+/* menu */
+.banner .menu{
+    width: 210px;
+    height: 380px;
+    background: white;
+    float: left;
+    
+}
+.menu a{
+    display: block;
+    width: 95px;
+    height: 50px;
+    float: left;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    text-indent: 28px;
+    color: #5e5e5e;
+    border-bottom: 1px dashed #eee;
+}
+.menu a i{
+    display: block;
+    float: left;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    background: url(../image/ct_icons.png) no-repeat;
+}
+.menu .nvzhuang{
+    background-position:  0 0;
+}
+.menu .nanzhuang{
+    background-position:  -24px 0;
+}
+.menu .xiezi{
+    background-position:  -48px 0;
+}
+.menu .xiangbao{
+    background-position:  -72px 0;
+}
+.menu .muying{
+    background-position:  -96px 0;
+}
+.menu .meizhuang{
+    background-position:  -120px 0;
+}
+.menu .jujia{
+    background-position:  -144px 0;
+}
+.menu .jiafang{
+    background-position:  -168px 0;
+}
+.menu .wenti{
+    background-position:  -192px 0;
+}
+.menu .meishi{
+    background-position:  -216px 0;
+}
+.menu .shuma{
+    background-position:  -240px 0;
+}
+.menu .dianqi{
+    background-position:  -264px 0;
+}
+.menu .neiyi{
+    background-position:  -288px 0;
+}
+.menu .peishi{
+    background-position:  -312px 0;
+}
+
+/* 划过 */
+.menu a:hover{
+    color:#ff464e;
+}
+.menu a:hover .nvzhuang{
+    background-position:  0 -24px;
+}
+.menu a:hover .nanzhuang{
+    background-position:  -24px -24px;
+}
+.menu a:hover .xiezi{
+    background-position:  -48px -24px;
+}
+.menu a:hover .xiangbao{
+    background-position:  -72px -24px;
+}
+.menu a:hover .muying{
+    background-position:  -96px -24px;
+}
+.menu a:hover .meizhuang{
+    background-position:  -120px -24px;
+}
+.menu a:hover .jujia{
+    background-position:  -144px -24px;
+}
+.menu a:hover .jiafang{
+    background-position:  -168px -24px;
+}
+.menu a:hover .wenti{
+    background-position:  -192px -24px;
+}
+.menu a:hover .meishi{
+    background-position:  -216px -24px;
+}
+.menu a:hover .shuma{
+    background-position:  -240px -24px;
+}
+.menu a:hover .dianqi{
+    background-position:  -264px -24px;
+}
+.menu a:hover .neiyi{
+    background-position:  -288px -24px;
+}
+.menu a:hover .peishi{
+    background-position:  -312px -24px;
+}
+.menu em{
+    font-style: normal;
+    font-size: 14px;
+    position: absolute;
+    left: 65px;
+    top: 0;
+    color: #eee;
+}
+.menu a:hover em{
+    color: #eee;
+}
+/* 轮播图 */
+.container ul,ol,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.container{
+	width: 700px;
+	height: 360px;
+	margin: 0 auto;
+	position: relative;
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.banner ul li a {
+	display: block;
+}
+.banner img{
+	width: 700px;
+	height: 360px;
+}
+.banner ol{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	padding: 3px;
+	z-index: 5;
+}
+.banner ol li{
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin-left: 5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin-right: 7px;
+}
+.container span{
+	width: 29px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 30px;
+	color: white;
+	background:black;
+    opacity: .5;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+#rtBtn{
+	right: 0;
+	left: auto;
+}
+/* right */
+.banner .right{
+    width: 250px;
+    height: 360px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.right img{
+    width: 124px;
+    height: 119px;
+    float: left;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.right .tImg{
+    border-right: none;
+}
+.right .lastImg{
+    width: 250px;
+    height: 120px;
+    border-bottom: none;
+    border-right: none;
+}
+.right em{
+    background: white;
+}
+.right a:hover em{
+    opacity:.8;
+
+}
+/* brand */
+/* title */
+.brand{
+    margin: 0 auto;
+    width: 1200px; 
+    margin-bottom: 35px;
+    background: white;
+}
+.title{
+   height: 64px;
+   padding-left: 20px;
+    margin: 0 auto;
+}
+.title h3{
+    color: #333;
+    font-size: 20px;
+    line-height: 64px;
+    float: left;;
+
+} 
+.title p{
+    float: left;
+    margin-left: 10px;
+    color: #bbb;
+    font-size: 16px;
+    line-height: 64px;
+}
+.title span{
+    float: right;
+    color: #ff464e;
+    font-size: 14px;
+    line-height: 64px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.title i{
+    float: right;
+    width: 9px;
+    height: 10px;
+    margin-top: 27px;
+    margin-left: 2px;
+    background: url(../image/icon_arrow-new.png) no-repeat 0 0;
+    font-weight: bold;
+}
+
+.brand ul{
+    width: 1180px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.brand ul li{
+    background: #fafafa;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.brand  img{
+    width: 278px;
+    height: 130px;
+    display: block;
+}
+.brand  a{
+    width: 278px;
+    height: 130px;
+}
+.brand ul span{
+    float: left;
+    color: #333;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.brand ul i{
+    float: right;
+    width: 68px;
+    height: 26px;
+    color: #ff464e;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    margin: 6px 10px 0 0;
+
+}
+
+.brand ul li:hover i{
+    color: white;
+    background: #ff464e;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#day,#hours,#minutes,#seconds {
+	color:white;
+	font-size: 12px;
+}
+.countdown{
+	width: 278px;
+	height: 22px;
+	background: black;
+	opacity: .5;
+	text-align: center;
+	line-height: 22px;
+    position: absolute;
+    left: 1px;
+    bottom: 40px;
+    p{
+    color: white;
+	font-size: 12px;
+    
+    em{
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin-bottom: -3px;
+        margin-right: 4px;
+        background: url(../image/clock.png) no-repeat 0 0;
+    }
+        b{
+            font-weight: normal;
+        }
+    }
+   
+}
+
+
+
+
+/* sale */
+.sale{
+    width: 1200px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.sale strong{
+    float: left;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    line-height: 35px;
+    padding-right: 23px;
+}
+.all{
+    float: right;
+    color: #ff464e;
+    font-size: 14px;
+    line-height: 35PX;
+    position: relative;
+    cursor: pointer;
+}
+.all i{
+    float: right;
+    width: 9px;
+    height: 10px;
+    background: url(../image/icon_arrow-new.png) no-repeat 0 0;
+    font-weight: bold;
+    position: absolute;
+    right: -13px;
+    top: 12px;
+}
+.saleT{
+    float: left;
+    margin-left: 10px;
+}
+.sale img{
+    float: left;
+    width: 55px;
+    height: 35px;
+    margin-right: 64px;
+    cursor: pointer;
+}
+
+
+/* new */
+.new{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    
+
+}
+.new .title span{
+    font-size: 12px;
+    color: #666;
+}
+/* 商品瀑布流 */
+.waterFull a img{
+    width: 220px;
+    height: 220px;
+    display: block;
+
+}
+.new .waterFull{
+    width: 1200px;
+    overflow: hidden;
+}
+.waterFull li{
+    float: left;
+    height: 230px;
+    height: 290px;
+    font-size: 12px;
+    color: #bbb;
+    border: 1px solid transparent;
+    padding: 6px;
+    margin: 0 3px 6px;
+    em{
+        display: block;
+        font-style: normal;
+        color: #ff464e;;
+        font-size: 18px;
+        line-height: 36px; 
+    del{
+            font-size: 14px;
+            color: #bbb;
+            font-weight: normal;
+        }
+    }
+    p{
+        float: left;
+        color: #333;
+        font-size: 12px;
+        width: 160px;
+        height: 18px;
+        line-height: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-right: 9px;
+        span{
+            float: right;
+            color: #bbb;
+            font-size: 12px;
+
+        }
+    }
+}
+.waterFull li:hover{
+    border: 1px solid #ebebeb;
+}
+// footer 
+.footer{
+    padding-bottom: 30px;
+    background: #f6f6f6;
+    
+    .ship{
+    padding-top: 25px;
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+    .everyT{
+        float: left;
+        margin-right: 65px;
+        img{
+            width: 90px;
+            height: 90px;
+            display: block;
+        }
+        span{
+            font-size: 14px;
+           color: #666;
+           margin: 10px 0;
+        }
+    }
+    .update{
+        float: left;
+        width: 197px;
+        h4{
+            font-size: 14px;
+            color: #333;
+        }
+        a{
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+            display: block;
+            position: relative;
+            text-indent: 8px;
+            margin-left: -6px;
+            i{
+                display: block;
+                width: 4px;
+                height: 4px;
+                background: #c6c6c6;
+                border-radius: 50%;
+                float: left;
+                position: absolute;
+                left: 0;
+                top: 6px;
+            }
+        }
+    }
+    .update0{
+        padding-top: 25px;
+        float: right;
+        a{
+            width: 86px;
+            height: 35px;
+            background: url(../image/service_add.gif) no-repeat 0 -5px;
+            float: left;
+        }
+        .time{
+            color: #919191;
+            font-size: 12px;
+            float: left;
+            text-indent: 10px;
+        }
+        .iphone{
+            margin-top: 28px;
+            margin-left: -98px;
+            color: #666;
+        }
+    }    
+    }   
+    .friend{
+        width: 1100px;
+        height: 41px;
+        margin: 0 auto;
+        line-height: 41px;
+        border-bottom: 1px dashed #ccc;
+        h5{
+            float: left;
+            color: #999999;
+            font-size: 12px;
+            font-weight: normal;
+        }
+        li{
+            color: #999999;
+            font-size: 12px;
+            float: left;
+            padding: 0px 10px;
+            cursor: pointer;
+        }
+        span{
+            font-size: 12px;
+            color: #999999;
+            float: right;
+            cursor: pointer;
+        }
+
+    }
+    .footerLast{
+        width: 1100px;
+        margin: 0 auto;
+        text-align: center;
+        p{
+            color: #c6c6c6;
+            font-size: 12px;
+            padding-top: 20px;
+        }
+        a{
+            margin-right: 27px;
+            img{
+                width: 96px;
+                height: 42px;
+                margin-top: 10px;
+            }
+        }
+    }
+} 
+.footMain{
+    border-top: #ff464e solid 4px;
+}
+

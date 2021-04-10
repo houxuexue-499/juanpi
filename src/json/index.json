@@ -1,0 +1,26 @@
+{
+    "slide" :{
+         "slider" :["image/1.jpg","image/2.jpg","image/3.jpg"]
+    },
+       
+    "brand" : {
+        "title":["image/brand1.jpg","image/brand2.jpg","image/brand3.jpg","image/brand4.jpg"],
+        "tit" :["ParkDancen女鞋上新","GXBABY童装上新","爱帝139减70","GXBABY童装上新"]
+    },
+    "new" :{
+        "img" :["image/cart1.jpg","image/cart2.jpg","image/cart3.jpg","image/cart4.jpg","image/cart5.jpg","image/cart6.jpg","image/cart7.jpg"],
+        "price" : ["￥79","￥49","￥110","￥67","￥79","￥79","￥39","￥79"],
+        "old" :["￥179","￥149","￥110","￥167","￥179","￥279","￥239","￥279"],
+        "shopDescribe" :["三彩新款西装领双排扣连衣裙女短款西装裙修身气质裙子","三彩新款高腰显瘦锥形裤水洗直筒九分牛仔老爹裤女腰带" ,"一字细带凉鞋女欧蔓莎新款简约百搭露趾中空搭扣粗跟凉鞋 ","衣架10-50支衣架子成人加粗加长加大晾衣架衣服架晒衣架 ","小黑裙香水洗发水护发素沐浴露套装持久留香女控油去屑止痒家"],
+        "day" : ["剩余1天","剩余2天","剩余3天","剩余8天","剩余2天"],
+        "sale" :["image/sale1.png","image/sale2.png","image/sale1.png","image/sale1.png","image/sale2.png","image/sale1.png","image/sale2.png","image/sale1.png"]
+        
+    },
+    "shopping" :{
+        "tit" : ["首页","女装","瑟可两件套针织连衣裙女春秋装2020款修身气质衬衫裙打底裙子"],
+        "title" : ["网红同款潮流纯棉印花T恤男宽松百搭帅气原宿风半截袖百搭上衣服"],
+        "price" : ["67","参考价:￥329"],
+        "img" : ["../image/yi1.jpg","../image/yi2.jpg","../image/yi3.jpg","../image/yi4.jpg","../image/yi5.jpg"],
+        "size" : ["S","M","L","XL","XXL"]
+    }
+}

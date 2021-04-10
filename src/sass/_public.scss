@@ -1,0 +1,162 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+/* top */
+.topMain{
+    background: #f6f6f6;
+}
+.top{
+    width: 1200px;
+    height: 30px;
+    background-color: #f6f6f6;
+    margin: 0 auto;
+}
+.order{
+    margin-left: 15px;
+}
+.top span{
+    color: #e2e2e2;
+}
+.icon{
+    background: url(../image/icon-total.png) no-repeat 0 -150px;
+    padding-left: 25px;
+}
+
+.top em{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #ff464e;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    line-height: 18px;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    margin: 5px 6px;
+}
+.top ul{
+    float: right;
+    overflow: hidden;
+}
+.top ul li{
+    float: left;
+    line-height: 30px;
+}
+.top ul li .shop{
+    margin-right: 0;
+}
+.top a{
+    color: #333;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.top .free{
+    color: #ff464e;
+}
+.top a:hover{
+   color: #ff464e;
+}
+
+/* header */
+.header{
+    width: 1200px;
+    height: 85px;
+}
+.header .logo{
+    padding-top: 17px;
+}
+.header .logo a{
+    display: flex;
+    width: 210px;
+    height: 52px;
+    background: url(../image/header-total.gif) no-repeat -78px -52px;
+    float: left;
+}
+.header ul{
+    width: 465px;
+    height: 33px;
+    float: left;
+    background: url(../image/header-total.gif) no-repeat;
+    margin-left: 243px;
+    margin-top: 8px;
+}
+.header li a{
+    display: block;
+    width: 155px;
+    height: 33px;
+}
+/*header ss  */
+.header{
+    margin: 0 auto;
+}
+.header p{
+    float: right;
+    margin-top: 6px;
+}
+p input{
+    outline: none;
+}
+.ss{
+    width: 190px;
+    height: 30px;
+    float: left;
+    border: 1px solid #efefef;
+    background: #efefef;
+    font-size: 12px;
+}
+.btn{
+    width: 36px;
+    height:32px;
+    background: url(../image/header-total.gif) no-repeat right -68px;
+    float: left;
+    border: 1px solid #ff464e;
+    border-left: 0;
+    padding-top: 2px;
+    color: #666;
+}
+/* nav */
+.nav{
+    width: 1200px;
+    height: 38px;
+    margin-left: 78px;
+    border-bottom: 2px solid #ff464e;;
+}
+.nav li{
+    line-height: 38px;
+    float: left;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+}
+.nav li a{
+    color: #333;
+    font-size: 14px;
+    margin: 0 24px;
+}
+.nav li a:hover{
+    color: #ff464e;
+}
+.nav li:nth-child(1) a{
+    color: white;
+}
+.nav li:nth-child(1){
+    background: #ff464e;
+}
+.phone{
+    background: url(../image/phone-new-20151119.png) no-repeat 2px 2px;
+    padding-left: 17px;
+}

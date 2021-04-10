@@ -1,0 +1,411 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+/* top */
+.topMain {
+  background: #f6f6f6;
+}
+
+.top {
+  width: 1200px;
+  height: 30px;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+}
+
+.order {
+  margin-left: 15px;
+}
+
+.top span {
+  color: #e2e2e2;
+}
+
+.icon {
+  background: url(../image/icon-total.png) no-repeat 0 -150px;
+  padding-left: 25px;
+}
+
+.top em {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: #ff464e;
+  border-radius: 50%;
+  float: right;
+  text-align: center;
+  line-height: 18px;
+  font-style: normal;
+  font-size: 12px;
+  color: white;
+  margin: 5px 6px;
+}
+
+.top ul {
+  float: right;
+  overflow: hidden;
+}
+
+.top ul li {
+  float: left;
+  line-height: 30px;
+}
+
+.top ul li .shop {
+  margin-right: 0;
+}
+
+.top a {
+  color: #333;
+  font-size: 12px;
+  margin-right: 15px;
+}
+
+.top .free {
+  color: #ff464e;
+}
+
+.top a:hover {
+  color: #ff464e;
+}
+
+/* header */
+.header {
+  width: 1200px;
+  height: 85px;
+}
+
+.header .logo {
+  padding-top: 17px;
+}
+
+.header .logo a {
+  display: flex;
+  width: 210px;
+  height: 52px;
+  background: url(../image/header-total.gif) no-repeat -78px -52px;
+  float: left;
+}
+
+.header ul {
+  width: 465px;
+  height: 33px;
+  float: left;
+  background: url(../image/header-total.gif) no-repeat;
+  margin-left: 243px;
+  margin-top: 8px;
+}
+
+.header li a {
+  display: block;
+  width: 155px;
+  height: 33px;
+}
+
+/*header ss  */
+.header {
+  margin: 0 auto;
+}
+
+.header p {
+  float: right;
+  margin-top: 6px;
+}
+
+p input {
+  outline: none;
+}
+
+.ss {
+  width: 190px;
+  height: 30px;
+  float: left;
+  border: 1px solid #efefef;
+  background: #efefef;
+  font-size: 12px;
+}
+
+.btn {
+  width: 36px;
+  height: 32px;
+  background: url(../image/header-total.gif) no-repeat right -68px;
+  float: left;
+  border: 1px solid #ff464e;
+  border-left: 0;
+  padding-top: 2px;
+  color: #666;
+}
+
+/* nav */
+.nav {
+  width: 1200px;
+  height: 38px;
+  margin-left: 78px;
+  border-bottom: 2px solid #ff464e;
+}
+
+.nav li {
+  line-height: 38px;
+  float: left;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.nav li a {
+  color: #333;
+  font-size: 14px;
+  margin: 0 24px;
+}
+
+.nav li a:hover {
+  color: #ff464e;
+}
+
+.nav li:nth-child(1) a {
+  color: white;
+}
+
+.nav li:nth-child(1) {
+  background: #ff464e;
+}
+
+.phone {
+  background: url(../image/phone-new-20151119.png) no-repeat 2px 2px;
+  padding-left: 17px;
+}
+
+body {
+  background: #f6f6f6;
+}
+
+/* header */
+.headerMain {
+  border-bottom: 4px solid #ff464e;
+  background: white;
+}
+
+.header {
+  width: 980px;
+  height: 85px;
+}
+
+.header .logo {
+  padding-top: 17px;
+}
+
+.header .logo a {
+  display: flex;
+  width: 210px;
+  height: 52px;
+  background: url(../image/header-total.gif) no-repeat -68px -210px;
+  float: left;
+}
+
+.header ul {
+  width: 465px;
+  height: 33px;
+  float: left;
+  background: url(../image/header-total.gif) no-repeat 0 0;
+  margin-left: 243px;
+  margin-top: 8px;
+}
+
+.header li a {
+  display: block;
+  width: 155px;
+  height: 33px;
+}
+
+.enter {
+  width: 980px;
+  margin: 0 auto;
+  background: white;
+  margin-top: 20px;
+}
+
+.enter .person {
+  height: 65px;
+  border: 1px solid #e2e2e2;
+  line-height: 65px;
+  padding: 0 50px;
+}
+
+.enter .person h4 {
+  color: #ff464e;
+  font-size: 16px;
+  font-weight: normal;
+  float: left;
+}
+
+.enter .person span {
+  margin-left: 2px;
+  margin-top: 20px;
+  width: 16px;
+  height: 24px;
+  background: url(../image/hd-bg.gif) no-repeat 0 0;
+  float: left;
+  padding: 0 6px;
+}
+
+.enter .person p {
+  color: #666;
+  font-size: 12px;
+  float: left;
+}
+
+.enter .person .go_sign {
+  float: right;
+}
+
+.enter .person .go_sign em {
+  font-style: normal;
+  font-size: 14px;
+  color: #999;
+}
+
+.enter .person .go_sign a {
+  font-size: 14px;
+  color: #0289cd;
+}
+
+.enter .message {
+  padding: 30px 80px 74px 80px;
+  border: 1px solid #e2e2e2;
+  border-top: none;
+}
+
+.enter .message p {
+  color: #666;
+  font-size: 14px;
+  padding-bottom: 25px;
+  width: 270px;
+}
+
+.enter .message p .name2 {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: url(../image/name2.jpg) no-repeat 0 0;
+}
+
+.enter .message p input {
+  width: 272px;
+  height: 40px;
+  border: 1px solid #c6c6c6;
+}
+
+.enter .message .sub input {
+  width: 231px;
+  height: 38px;
+  background: #ff464e;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  color: white;
+  outline: 0;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.enter .message .deal {
+  color: #5e5e5e;
+  font-size: 12px;
+}
+
+.enter .message .deal input {
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}
+
+.enter .message .deal a {
+  padding-left: 125px;
+  color: #999;
+}
+
+.enter .message img {
+  width: 349px;
+  height: 247pxpx;
+  float: right;
+  margin-top: -250px;
+}
+
+.enter .message .dl {
+  margin-top: 30px;
+}
+
+.enter .message .dl h4 {
+  color: #666;
+  font-size: 12px;
+  font-weight: 100;
+  padding-bottom: 8px;
+}
+
+.enter .message .dl a {
+  float: left;
+  width: 22px;
+  height: 22px;
+}
+
+.enter .message .dl .weixin {
+  background: url(../image/new-login.gif) no-repeat -236px -194px;
+  margin-right: 7px;
+}
+
+.enter .message .dl .weibo {
+  background: url(../image/new-login.gif) no-repeat -27px -169px;
+  margin-right: 7px;
+}
+
+.enter .message .dl .taobao {
+  background: url(../image/new-login.gif) no-repeat -27px -140px;
+}
+
+.enter .message .ipEnter {
+  color: #666;
+  font-size: 14px;
+  margin-left: 75px;
+}
+
+.footer-tip {
+  margin: 0 auto;
+  width: 980px;
+  background-color: #f6f6f6;
+}
+
+.footer-tip p {
+  width: 900px;
+  height: 98px;
+  line-height: 98px;
+  color: #666;
+  font-size: 12px;
+  margin: auto 40px;
+}
+
+.footer-tip strong {
+  font-weight: 100;
+  color: #666;
+  font-size: 12px;
+  margin: 0 auto;
+}
